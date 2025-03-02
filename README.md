@@ -16,9 +16,6 @@ A mini energy monitoring system for a smart home that demonstrates both front-en
 - **Front-End**: HTML, CSS, JavaScript, Bootstrap, Chart.js
 - **Data Source**: Static JSON file (for demo purposes; can be replaced with a live API)
 
-## Project Structure
-
-mart_home_energy/ ├── manage.py ├── smart_home_energy/ │ ├── init.py │ ├── asgi.py │ ├── settings.py │ ├── urls.py │ └── wsgi.py └── energy/ ├── init.py ├── admin.py ├── apps.py ├── migrations/ │ └── init.py ├── models.py ├── serializers.py ├── tests.py ├── urls.py ├── views.py ├── templates/ │ └── energy/ │ └── dashboard.html └── static/ ├── css/ │ └── style.css ├── js/ │ └── script.js └── data/ └── energy_data.json
 
 ## Installation
 
